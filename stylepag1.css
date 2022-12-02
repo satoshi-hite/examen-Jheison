@@ -1,0 +1,128 @@
+body
+{
+    background-color: rgb(41, 40, 38);
+}
+@media(max-widht:700px){
+    body{
+        flex-direction: column;
+    }
+    
+}
+.headerAndFooter{  
+    position: relative; 
+    background-color: black;
+    height: auto;
+    color: white;
+    margin-bottom: 10px;   
+}
+.img{
+    background-color: black;
+    background-image: url(images/whatsapp.png);
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+}
+.icon{
+    background-color:rgba(20, 15, 15, 0.078);
+    background-image: url(images/icons.png);
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+}
+.colorInfo{
+
+    background-color: rgb(39, 192, 39);
+    text-decoration: none;
+}
+
+.parteSuperior{
+    
+    border: 1px solid;
+    width: auto;
+    height: 400px;
+    background-size:cover;
+    background-image: url(images/fondoSub.jpg);
+    padding-top: -30px;
+    
+}
+.parteInferior
+{
+    border: 1px solid;
+    width: auto;
+    height: 400px;
+    background-size:cover;
+    background-image: url(https://i0.wp.com/lagranvidente.com/wp-content/uploads/2020/10/amarres-de-amor-peru-1024x576.jpg); 
+  
+}
+.cuadro1{   
+    height: 448px;
+    width: 50% ;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    
+}
+.cuadro2{
+
+    color: aliceblue;
+    height: 484px;
+    width: 50% ;   
+    margin-left: auto;   
+    background-color: rgba(20, 15, 15, 0.575);
+}
+article{
+    
+    height: 200px ;
+    width: 200px;
+    margin-left: 15px;
+}
+.cuadro3{
+    color: aliceblue;   
+    height: 400px;
+    width: 50% ;
+    position: absolute;
+    background-color: rgba(20, 15, 15, 0.575);
+}
+.cuadro4{
+    
+    
+    height: 400px;
+    width: 50% ;   
+    margin-left: auto; 
+    
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    
+}
+.img2{
+    
+    background-color: black;
+    background-image: url(images/no-menores.png);
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+}
+
+.final1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: auto;
+    text-align: left;
+    margin-top: 3px;
+    font-size: 10px;
+    color: white;
+    width: 100%;
+    margin: 0px auto ;
+    background-color: black;
+}
+.textoo{
+    text-align: left
+}

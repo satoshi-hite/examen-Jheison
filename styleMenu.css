@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(https://www.blucactus.com.mx/wp-content/uploads/2018/08/blucactus-fondo-oscuro-paginas-web-1.jpg);
+}
+div{
+    font-family: 'Lora', serif;
+    margin-top: 250px;
+    color: white;
+   
+}
+.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    background: #141414;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Lora', serif;
+}
+
+.boton span{
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+.boton.video::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: gray;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+
+.boton.video:hover::after{
+    top: 0;
+}
+
+
